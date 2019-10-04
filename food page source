@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Food Page</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"  >
+
+</head>
+
+<body>
+
+<nav>
+  <ul>
+	<li><a href="food.html">Breakfast</a>
+			<ul>
+			  
+				<li><a href="#">Croissant Sandwich<p>$7.00</p></a></li>
+				
+			  	<img src="images/croissant.jpg" width="100" height="100" alt=""/>
+				<input id = "croissantButton" type="button" value = "Add" >
+			  <li><a href="#">Biscuit Sandwich<p>$7.00</p></a></li>    
+			  	<img src="images/Biscuit.jpg" width="100" height="100" alt=""/>
+				<input id = "biscuitButton" type="button" value = "Add" >
+			  <li><a href="#">Pancakes<p>$5.00</p></a></li>
+			  	<img src="images/pancakes.jpg" width="100" height="100" alt=""/>
+				<input id = "pancakeButton" type="button" value = "Add" >
+            </ul>
+	  </li>
+	  <li><a href="#">Lunch</a>
+	    <ul>
+			  <li><a href="#">Burger<p>$8.00</p></a></li>
+			  	<img src="images/Burger.jpg" width="100" height="100" alt=""/>
+			    <input id = "burgerButton" type="button" value = "Add" >
+			  <li><a href="#">Hotdog<p>$6.00</p></a></li>    
+			  	<img src="images/Hotdog.jpg" width="100" height="100" alt=""/>
+				<input id = "hotdogButton" type="button" value = "Add" >
+			  <li><a href="#">Sandwich<p>$7.00</p></a></li>    
+       	  		<img src="images/Sandwich.jpg" width="100" 	height="100" alt=""/>
+				<input id = "sandwichButton" type="button" value = "Add" >
+        </ul>
+	  </li>
+	 
+	  <li><a href="#">Deserts</a>
+	  		<ul>
+			  <li><a href="#">Cake<p>$9.00</p></a></li>
+			  	<img src="images/cake.jpg" width="100" height="100" alt=""/>
+				<input id = "cakeButton" type="button" value = "Add" >
+			  <li><a href="#">Pie<p>$7.00</p></a></li>  
+			  	<img src="images/pie.jpg" width="100" height="100" alt=""/>
+				<input id = "pieButton" type="button" value = "Add" >
+			  <li><a href="#">Brownie<p>$8.00</p></a></li>  
+			  	<img src="images/brownie.jpg" width="100" height="100" alt=""/>
+				<input id = "brownieButton" type="button" value = "Add" >
+            </ul>
+	  </li>
+	  <li><a href="#">Drinks</a>
+	  		<ul>
+			  <li><a href="#">Tea<p>$3.00</p></a></li>
+			  	<img src="images/tea.jpg" width="100" 	height="100" alt=""/>
+				<input id = "teaButton" type="button" value = "Add" >
+			  <li><a href="#">Coffee<p>$4.00</p></a></li> 
+			  	<img src="images/coffee.jpg" width="100" height="100" alt=""/>
+				<input id = "coffeButton" type="button" value = "Add" >
+			  <li><a href="#">Lemonade<p>$3.00</p></a></li>   
+			  	<img src="images/lemonade.jpg" width="100" height="100" alt=""/>
+				<input id = "lemonadeButton" type="button" value = "Add" >
+            </ul>
+			</ul>
+	  </li>
+</nav>
+
+	</body>
+</html>
